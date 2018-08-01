@@ -1,0 +1,6 @@
+.bundle
+.sass-cache
+_site
+*.gem
+package-lock.json
+node_modules
