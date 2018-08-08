@@ -3,6 +3,12 @@ author: Hugh Janz
 email: info@raleighbeach.org
 description: > # this means to ignore newlines until "twitter_username:"
 
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
+      
 #disqus:
 #  shortname:
 
