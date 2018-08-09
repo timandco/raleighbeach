@@ -12,6 +12,7 @@ defaults:
 #disqus:
 #  shortname:
 
+google_analytics: true
 google:
  analytics: UA-123247204-1
 
