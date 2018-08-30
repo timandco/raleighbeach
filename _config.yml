@@ -15,6 +15,7 @@ defaults:
 google_analytics: true
 google:
  analytics: UA-123247204-1
+ optimize: GTM-53W7QV4
 
 # social links
 twitter_username: raleigh_beach

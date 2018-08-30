@@ -6,6 +6,7 @@ if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNo
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
   ga('create', '{{ site.google.analytics }}', 'auto');
+  ga('require', '{{ site.google.optimize }}');
   ga('send', 'pageview');
 }
 </script>
