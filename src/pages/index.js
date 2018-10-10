@@ -1,10 +1,13 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import { Link } from 'gatsby';
 
-const IndexPage = () => (
-  <div>
-   <h1>⛱</h1>
-  </div>
-)
+import Layout from '../components/shared/Layout';
+import Store from '../components/Store/Store'
 
-export default IndexPage
+const IndexPage = ({pageContext, location}) => (
+  <Layout>
+    <Store />
+  </Layout>
+);
+
+export default IndexPage;
